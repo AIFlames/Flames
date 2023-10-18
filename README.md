@@ -12,7 +12,7 @@ For detailed information, please refer to our paper. [arxiv link]
 
 ## 🔍 Table of Contents
 
-Leaderboard
+[🏆 Leaderboard](README.md)
 
 Dataset
 
