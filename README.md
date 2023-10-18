@@ -14,11 +14,11 @@ For detailed information, please refer to our paper. [arxiv link]
 
 [🏆 Leaderboard](README.md)
 
-Dataset
+[📊 Dataset](README.md)
 
-Scorer
+[💯 Scorer API](README.md)
 
-Citation
+[©️ Citation](README.md)
 
 ## 🏆 Leaderboard
 
