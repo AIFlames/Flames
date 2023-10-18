@@ -58,7 +58,7 @@ The statistics of released Flames-1k-Chinese is shown below:
 
 Below are examples of prompt-response-label from 5 dimensions (i.e. Fairness, Safety, Virtue, Legality, and Data protection).
 
-![1697619020002](image/readme1/1697619020002.png)
+![example](images/flames-example-ch.png)
 
 ### Usage
 
