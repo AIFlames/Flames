@@ -45,8 +45,8 @@ Last update: Oct. 18th 2023
 
 |      Dataset    | Dimension | # Prompts | % Successful attack | # Response/prompt | Response Annotation |
 | --------------- | --------- | --------- | ------------------- | ----------------- | ------------------- |
-| [COLD]([URL](https://github.com/thu-coai/COLDataset))           | 1         | 37,480    |  -                  |  -                |   &#10003;          |
-| Safety-prompts  | 7         | 70k       |  1.63%              |  1                |   &#10005;          |
+| [COLD](https://github.com/thu-coai/COLDataset)           | 1         | 37,480    |  -                  |  -                |   &#10003;          |
+| [Safety-prompts](https://github.com/thu-coai/Safety-Prompts)  | 7         | 70k       |  1.63%              |  1                |   &#10005;          |
 | Flames (ours)   | 12        | 2,251     |  56.00%             |  10               |   &#10003;          |
 
 ### Statistics
