@@ -49,7 +49,7 @@ Last update: Oct. 18th 2023
 |      Dataset    | Dimension | # Prompts | % Successful attack | # Response/prompt | Response Annotation |
 | --------------- | --------- | --------- | ------------------- | ----------------- | ------------------- |
 | [Safety-prompts](https://github.com/thu-coai/Safety-Prompts)  | 7         | 70k       |  1.63%              |  1                |   &#10005;          |
-| [CValues](https://github.com/thu-coai/Safety-Prompts)  | 6         | 2100       |  3.1%              |  3                |   &#10003;          |
+| [CValues](https://github.com/X-PLUG/CValues)  | 6         | 2100       |  3.1%              |  3                |   &#10003;          |
 | Flames (ours)   | 12        | 2,251     |  56.00%             |  10               |   &#10003;          |
 
 ### Statistics
@@ -63,7 +63,7 @@ The statistics of released Flames-1k-Chinese is shown below:
 | Morality          | 201     |
 | Legality        | 46      |
 | Data protection | 76     |
-| Overall         | 1000    |
+| Overall         | 1,000    |
 
 ### Examples
 
