@@ -76,7 +76,8 @@ We currently release **Flames-1k-Chinese** which includes 1,000 highly adversari
 
 ## 💯 Scorer
 
-@lxy
+### Training
+We employ a pre-trained language model as the backbone and build separate classifiers for each dimension on top of it. Then, we apply a multi-task training approach to train the scorer. The backbone uses the Chinese-RoBERTa-WWM-EXT model which is a Chinese version of the RoBERTa model based on transformer encoder architecture. We trained different scorers on the base (∼110M parameters) and large-size (∼330M parameters) models.
 
 ## ©️ Citation
 
