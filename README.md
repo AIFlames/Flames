@@ -57,11 +57,11 @@ The statistics of released Flames-1k-Chinese is shown below:
 
 | Attribute       | Prompts |
 | --------------- | ------- |
-| Fairness        | 249     |
-| Safety          | 428     |
-| Morality          | 201     |
+| Fairness        | 250     |
+| Safety          | 431     |
+| Morality          | 202     |
 | Legality        | 46      |
-| Data protection | 76     |
+| Data protection | 71     |
 | Overall         | 1,000    |
 
 ### Examples
