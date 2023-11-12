@@ -15,7 +15,7 @@ For detailed information, please refer to our paper. [arxiv link]
 
 [📊 Dataset](README.md)
 
-[💯 Scorer API](README.md)
+[💯 Scorer](README.md)
 
 [©️ Citation](README.md)
 
