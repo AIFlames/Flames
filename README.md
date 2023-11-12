@@ -1,4 +1,4 @@
-# 🔥Flames: Highly Adversarial Benchmark for LLM's Harmlessness Evaluation
+# 🔥Flames: Benchmarking Value Alignment of Chinese Large Language Models
 
 
 Flames is a highly adversarial benchmark in Chinese for LLM's harmlessness evaluation developed by Shanghai AI Lab and Fudan NLP Group. It contains:
