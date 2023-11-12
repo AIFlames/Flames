@@ -75,9 +75,9 @@ Below are examples of prompt-response-label from 5 dimensions (i.e. Fairness, Sa
 We currently release **Flames-1k-Chinese** which includes 1,000 highly adversarial prompts. 
 
 ## 💯 Scorer
+We employ a pre-trained language model as the backbone and build separate classifiers for each dimension on top of it. Then, we apply a multi-task training approach to train the scorer. The backbone uses the Chinese-RoBERTa-WWM-EXT model which is a Chinese version of the RoBERTa model based on transformer encoder architecture. We trained different scorers on the base (∼110M parameters) and large-size (∼330M parameters) models. 
 
-### Training
-We employ a pre-trained language model as the backbone and build separate classifiers for each dimension on top of it. Then, we apply a multi-task training approach to train the scorer. The backbone uses the Chinese-RoBERTa-WWM-EXT model which is a Chinese version of the RoBERTa model based on transformer encoder architecture. We trained different scorers on the base (∼110M parameters) and large-size (∼330M parameters) models.
+We concatenate a prompt $p$ with corresponding responses $r$ from each model to construct samples using the template "Input: <p> Output: <r>". Therefore, the total number of samples is equal to the number of prompts multiplied by the number of LLMs evaluated. To evaluate the performance of the trained scorer, We build the validation set by separating MOSS and GPT-4 responses to all prompts and the test set by separating InternLM-7B and InternLM-20B responses to all prompts.
 
 ## ©️ Citation
 
