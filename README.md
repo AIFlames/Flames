@@ -86,7 +86,7 @@ If you think this dataset is helpful for your work or use it in your research, p
 ```bibtex
 @article{Flames,
       title={Flames: Benchmarking Value Alignment of Chinese Large Language Models}, 
-      author={ Kexin Huang and Xiangyang Liu and Qianyu Guo and Tianxiang Sun and Jiawei Sun and Yaru Wang and Zeyang Zhou and Yixu Wang and Xipeng Qiu and Yingchun Wang and Dahua Lin and Yan Teng},
+      author={Kexin Huang and Xiangyang Liu and Qianyu Guo and Tianxiang Sun and Jiawei Sun and Yaru Wang and Zeyang Zhou and Yixu Wang and Xipeng Qiu and Yingchun Wang and Dahua Lin and Yan Teng},
       journal={arXiv preprint arXiv:},
       year={2023}
 }
