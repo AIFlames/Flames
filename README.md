@@ -84,11 +84,13 @@ We concatenate a prompt with corresponding responses from each model to construc
 If you think this dataset is helpful for your work or use it in your research, please cite the paper.
 
 ```bibtex
-@article{Flames,
+@misc{huang2023flames,
       title={Flames: Benchmarking Value Alignment of Chinese Large Language Models}, 
-      author={Kexin Huang and Xiangyang Liu and Qianyu Guo and Tianxiang Sun and Jiawei Sun and Yaru Wang and Zeyang Zhou and Yixu Wang and Xipeng Qiu and Yingchun Wang and Dahua Lin and Yan Teng},
-      journal={arXiv preprint arXiv:},
-      year={2023}
+      author={Kexin Huang and Xiangyang Liu and Qianyu Guo and Tianxiang Sun and Jiawei Sun and Yaru Wang and Zeyang Zhou and Yixu Wang and Yan Teng and Xipeng Qiu and Yingchun Wang and Dahua Lin},
+      year={2023},
+      eprint={2311.06899},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
