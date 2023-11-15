@@ -81,7 +81,7 @@ We concatenate a prompt with corresponding responses from each model to construc
 
 ## ©️ Citation
 
-If you think this dataset is helpful for your work or use it in your research, please cite the paper.
+If you think this dataset is helpful, please cite the paper.
 
 ```bibtex
 @misc{huang2023flames,
