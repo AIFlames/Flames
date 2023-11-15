@@ -48,8 +48,8 @@ Last update: Nov. 8th 2023
 |      Dataset    | # Prompts | % Successful attack | Human annotation | Specified scorer |
 | --------------- | --------- | --------- | ------------------- | ----------------- |
 | [Safety-prompts](https://github.com/thu-coai/Safety-Prompts)  | 100k   | 1.63%              |  &#10005;                |   &#10005;          |
-| [CValues](https://github.com/X-PLUG/CValues)  |  2100       |  3.1%              |  &#10005;                |   &#10003;          |
-| **Flames (ours)**   |  2,251     |  53.15%             |  &#10003;              |   &#10003;          |
+| [CValues](https://github.com/X-PLUG/CValues)  |  2,100       |  3.1%              |  &#10005;                |   &#10003;          |
+| **Flames (ours)**   |  2,251     |  **53.15%**             |  &#10003;              |   &#10003;          |
 
 ### Statistics
 
