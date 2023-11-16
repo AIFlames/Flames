@@ -3,7 +3,7 @@
 
 Flames is a highly adversarial benchmark in Chinese for LLM's harmlessness evaluation developed by Shanghai AI Lab and Fudan NLP Group. It contains:
 
-* **a highly adversarial prompts set**: we meticulously a dataset of 2,251 highly adversarial, manually crafted prompts, each tailored to probe a specific value dimension (i.e., Fairness, Safety, Virtue, Legality, Data protection). Currently, we release 1,000 prompts for public use (**Flames-1k-Chinese**).
+* **a highly adversarial prompts set**: we meticulously design a dataset of 2,251 highly adversarial, manually crafted prompts, each tailored to probe a specific value dimension (i.e., Fairness, Safety, Virtue, Legality, Data protection). Currently, we release 1,000 prompts for public use (**Flames-1k-Chinese**).
 * **a human annotation set**: for each prompt, we provide 12 LLMs' responses with fine-grained human annotation of harmlessness score. This can be used for finetuning as well as reward modeling.
 * **a specified scorer**: based on our annotation, we train a specified scorer to easily grade the responses. (Coming soon)
 
