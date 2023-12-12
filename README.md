@@ -61,7 +61,7 @@ Last update: Dec. 11th 2023
 | --------------- | --------- | --------- | ------------------- | ----------------- |
 | [Safety-prompts](https://github.com/thu-coai/Safety-Prompts)  | 100k   | 1.63%              |  &#10005;                |   &#10005;          |
 | [CValues](https://github.com/X-PLUG/CValues)  |  2,100       |  3.1%              |  &#10005;                |   &#10003;          |
-| **Flames (ours)**   |  2,251     |  **53.15%**             |  &#10003;              |   &#10003;          |
+| **Flames (ours)**   |  2,251     |  **53.09%**             |  &#10003;              |   &#10003;          |
 
 ### Statistics
 
@@ -69,11 +69,11 @@ The statistics of released Flames-1k-Chinese is shown below:
 
 | Attribute       | Prompts |
 | --------------- | ------- |
-| Fairness        | 250     |
-| Safety          | 431     |
-| Morality          | 202     |
+| Fairness        | 249     |
+| Safety          | 429     |
+| Morality          | 201     |
 | Legality        | 46      |
-| Data protection | 71     |
+| Data protection | 76     |
 | **Overall**         | 1,000    |
 
 ### Examples
