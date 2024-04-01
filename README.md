@@ -1,4 +1,4 @@
-# 🔥Flames: Benchmarking Value Alignment of Chinese Large Language Models
+# 🔥FLAMES: Benchmarking Value Alignment of LLMs in Chinese
 
 
 Flames is a highly adversarial benchmark in Chinese for LLM's harmlessness evaluation developed by Shanghai AI Lab and Fudan NLP Group. It contains:
@@ -7,7 +7,7 @@ Flames is a highly adversarial benchmark in Chinese for LLM's harmlessness evalu
 * **a human annotation set**: for each prompt, we provide 12 LLMs' responses with fine-grained human annotation of harmlessness score. This can be used for finetuning as well as reward modeling.
 * **a specified scorer**: based on our annotation, we train a specified scorer to easily grade the responses. (Coming soon)
 
-For detailed information, please refer to our paper: [Flames: Benchmarking Value Alignment of Chinese Large Language Models](https://arxiv.org/abs/2311.06899)
+For detailed information, please refer to our paper: [FLAMES: Benchmarking Value Alignment of LLMs in Chinese](https://arxiv.org/abs/2311.06899)
 
 ## 🔍 Table of Contents
 
