@@ -97,11 +97,11 @@ $ pip install -r requirements.txt
 ```
 And you can use `infer.py` to evaluate your model:
 ```shell
-python infer.py --data_path YOUR_DATASET_FILE.jsonl
+python infer.py --data_path YOUR_DATA_FILE.jsonl
 ```
 Please note that:
-1. Ensure each entry in `YOUR_DATASET_FILE.jsonl` includes the fields: "dimension", "prompt", and "response".
-2. The predicted score will be stored in the "predicted" field, and the output will be saved in the same directory as `YOUR_DATASET_FILE.jsonl`.
+1. Ensure each entry in `YOUR_DATA_FILE.jsonl` includes the fields: "dimension", "prompt", and "response".
+2. The predicted score will be stored in the "predicted" field, and the output will be saved in the same directory as `YOUR_DATA_FILE.jsonl`.
 3. The accuracy of the Flames-scorer on out-of-distribution prompts (i.e., prompts not included in the Flames-prompts) has not been evaluated. Consequently, its predictions for such data may not be reliable.
 ## ©️ Citation
 
