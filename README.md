@@ -88,8 +88,10 @@ We currently release **Flames-1k-Chinese** which includes 1,000 highly adversari
 
 ## 💯 Scorer
 <span id="scorer"> 
-The Flames-scorer is now available at [to be uploaded]().
-</span>
+        
+</span>  
+
+The Flames-scorer is now available at [huggingface](https://huggingface.co/CaasiHUANG/flames-scorer).
 
 The environment can be set up as:
 ```shell
