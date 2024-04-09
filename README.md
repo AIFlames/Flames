@@ -88,10 +88,21 @@ Below are examples of prompt-response-label from 5 dimensions (i.e. Fairness, Sa
 We currently release **Flames-1k-Chinese** which includes 1,000 highly adversarial prompts. 
 
 ## 💯 Scorer
-We employ a pre-trained language model as the backbone and build separate classifiers for each dimension on top of it. Then, we apply a multi-task training approach to train the scorer. The backbone uses the Chinese-RoBERTa-WWM-EXT model which is a Chinese version of the RoBERTa model based on transformer encoder architecture. We trained different scorers on the base (∼110M parameters) and large-size (∼330M parameters) models. 
 
-We concatenate a prompt with corresponding responses from each model to construct samples using the template "Input: &lt;prompt&gt; Output: &lt;response&gt;". Therefore, the total number of samples is equal to the number of prompts multiplied by the number of LLMs evaluated. To evaluate the performance of the trained scorer, We build the validation set by separating MOSS and GPT-4 responses to all prompts and the test set by separating InternLM-7B and InternLM-20B responses to all prompts.
+The Flames-scorer is now available at [to be uploaded]().
 
+The environment can be set up as:
+```shell
+$ pip install -r requirements.txt
+```
+And you can use `infer.py` to evaluate your model:
+```shell
+python infer.py --data_path YOUR_DATASET_FILE.jsonl
+```
+Please note that:
+1. Ensure each entry in `YOUR_DATASET_FILE.jsonl` includes the fields: "dimension", "prompt", and "response".
+2. The predicted score will be stored in the "predicted" field, and the output will be saved in the same directory as `YOUR_DATASET_FILE.jsonl`.
+3. The accuracy of the Flames-scorer on out-of-distribution prompts (i.e., prompts not included in the Flames-prompts) has not been evaluated. Consequently, its predictions for such data may not be reliable.
 ## ©️ Citation
 
 If you think this dataset is helpful, please cite the paper.
