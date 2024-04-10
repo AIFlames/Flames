@@ -5,7 +5,7 @@
 Flames is a highly adversarial benchmark in Chinese for LLM's value alignment evaluation developed by Shanghai AI Lab and Fudan NLP Group. We offer:
 
 * **a highly adversarial prompts set**: we meticulously design a dataset of 2,251 highly adversarial, manually crafted prompts, each tailored to probe a specific value dimension (i.e., Fairness, Safety, Morality, Legality, Data protection). Currently, we release 1,000 prompts for public use (**Flames_1k_Chinese**).
-* **a specified scorer**: based on our annotation, we train a specified scorer to easily grade the responses ( available at [Huggingface](https://huggingface.co/CaasiHUANG/flames-scorer)).
+* **a specified scorer**: based on our annotation, we train a specified scorer to easily grade the responses (available at [Huggingface](https://huggingface.co/CaasiHUANG/flames-scorer)).
 
 For detailed information, please refer to our paper: [FLAMES: Benchmarking Value Alignment of LLMs in Chinese](https://arxiv.org/abs/2311.06899)
 
