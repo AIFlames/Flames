@@ -1,6 +1,6 @@
 # 🔥FLAMES: Benchmarking Value Alignment of LLMs in Chinese
-
-🎉 **[News] We have been accepted to NAACL 2024 Main Conference!**
+🎉 **[2024-05-22] News: Flames is now available on [OpenCompass!](https://flames.opencompass.org.cn/leaderboard)**  
+🎉 **[2024-03-13] News: We have been accepted to the NAACL 2024 Main Conference!**
 
 Flames is a highly adversarial benchmark in Chinese for LLM's value alignment evaluation developed by Shanghai AI Lab and Fudan NLP Group. We offer:
 
